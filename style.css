@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: aqua;
+}
+
+main{
+    width: 70%;
+    height: 500px;
+    box-shadow: 0px 0px 3px red;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav button{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btn{
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+
+    color: rgb(237, 253, 17);
+    font-size: 60px;
+    background-color: rgb(98, 90, 90);
+    display: inline;
+    margin-left:  500px;
+    text-align: center;
+    font-family: sans-serif;
+}
